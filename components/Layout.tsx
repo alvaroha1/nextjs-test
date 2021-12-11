@@ -9,7 +9,7 @@ interface Route {
 
 function Layout({ children }: { children: React.ReactNode }) {
   const router = useRouter();
-  const routes: Route[] = [{name: "Home", path: "/"}, {name: "Rick and Morty", path: "/rickandmorty"}, {name: "Table", path: "/table"}, {name: "Ticktacktoe", path: "/ticktacktoe"}, {name: "Timer", path: "/timer"}]
+  const routes: Route[] = [{name: "Home", path: "/"}, {name: "Rick and Morty", path: "/rickandmorty"}, {name: "Table", path: "/table"}, {name: "Ticktacktoe", path: "/ticktacktoe"}, {name: "Timer", path: "/timer"}, {name: "Form", path: "/form"}]
   return (
     <div className={styles.container}>
       <nav>

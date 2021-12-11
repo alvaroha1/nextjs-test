@@ -4,19 +4,29 @@
 }
 
 .item {
-  padding: 10px;
+  padding: 8px;
   cursor: pointer;
-  margin: 12px;
+  margin: 6px;
+  border: 1px solid var(--lightBlue);
+  color: var(--lightBlue);
+  border-radius: 6px;
 }
 
 .item:hover {
-  background-color: var(--white);
+  border: 1px solid var(--electricBlue);
+  color: var(--electricBlue);
 }
 
 .item__selected {
-  background-color: var(--white);
+  padding: 8px;
+  cursor: pointer;
+  margin: 6px;
+  border: 1px solid var(--electricBlue);
+  color: var(--electricBlue);
+  border-radius: 6px;
 }
 
 .item__selected:hover {
-  background-color: var(--lightBlue);
+  color: var(--lightBlue);
+  border: 1px solid var(--lightBlue);
 }

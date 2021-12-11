@@ -20,8 +20,12 @@ a {
   --grayColor: #5c5470; 
   --lightBlack: #352f44;
   --darkBlack: #2a2438;
-  --lightBlue: #5dacbd; 
+  --lightBlue: #3bb4f5; 
+  --electricBlue: #0074b3; 
 	--darkBlue: #24527a; 
-	--darkGreen: #a7bcb9; 
+	--darkGreen: #314340; 
 	--white: #e0ebeb; 
+  --blackBlue: #201a45; 
+  --whiteBlue: #e3f6f5; 
+  --cyan: #bae8e8; 
 }
