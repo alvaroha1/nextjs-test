@@ -1,0 +1,47 @@
+.container {
+  line-height: 1.5;
+	padding: 0 2rem;
+}
+
+.button_box {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.answer_box {
+  text-align: center;
+}
+
+.text {
+  font-family: Milliard-Book,sans-serif;
+  color: #140b41;
+  padding: 10px;
+  margin: 0px;
+}
+
+.form_box {
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 625px;
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px 0 rgba(#999, .25);
+    padding: .75rem;
+}
+
+.card_image {
+	border-radius: 8px;
+	overflow: hidden;
+	padding-bottom: 50%;
+	background-image: url('/mail.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: relative;
+}
+
+.form_card {
+	padding: 10px;
+}
