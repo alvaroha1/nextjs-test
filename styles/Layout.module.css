@@ -1,0 +1,22 @@
+.container {
+  padding: 20px;
+  display: flex;
+}
+
+.item {
+  padding: 10px;
+  cursor: pointer;
+  margin: 12px;
+}
+
+.item:hover {
+  background-color: var(--white);
+}
+
+.item__selected {
+  background-color: var(--white);
+}
+
+.item__selected:hover {
+  background-color: var(--lightBlue);
+}
