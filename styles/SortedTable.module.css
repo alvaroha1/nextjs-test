@@ -1,0 +1,40 @@
+body {
+  background: linear-gradient(to right, var(--cyan), var(--darkBlue))
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+tbody {
+  width: 100%;
+  border: 1px solid black;
+  background : #fafafa;
+}
+
+tr {
+  width: 100%;
+}
+
+th, td {
+  padding: 20px 15px;
+  text-align: left;
+}
+
+.sort-button {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  padding: 5px 10px;
+  margin: 0;
+  color: black;
+  text-align: left;
+  line-height: 1;
+
+  transition: transform .05s ease-out;
+}
+
+.sort-reverse {
+  transform: rotate(180deg);
+}
